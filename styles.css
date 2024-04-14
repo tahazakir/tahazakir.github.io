@@ -1,0 +1,118 @@
+:root {
+    --main-font-size: 1rem; 
+    --main-color: black; 
+    --background-color: white;    
+    --link-color: black;  
+    --secondary-color: #f3ff65; 
+    --tertiary-color: #8fff5a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: var(--main-font-size);
+    line-height: 1.6;
+    color: var(--main-color);
+    background-color: var(--background-color);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    align-items: flex-start;
+    /* background-color: aqua; */
+}
+
+.main-content {
+    flex: 3; 
+    margin-right: 2rem; 
+    margin-top: 1rem;
+    font-size: 2rem;
+    /* background-color: bisque; */
+}
+
+.main-content h1 {
+
+    text-shadow: 4px 4px var(--tertiary-color);
+}
+
+.link-box {
+    max-width: 300px; 
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 2rem; 
+    align-self: center;
+}
+
+.link-box h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+.link-box ul {
+    list-style:disc;
+    font-size: 1.5rem;
+}
+
+.link-box li + li {
+    margin-top: 0.5rem;
+}
+
+.link-box li:last-child {
+    padding-bottom: 0;
+}
+
+.main-content a,
+.link-box a {
+    color: var(--link-color); /* Set the link color to black */
+    text-decoration: underline; /* Add an underline to links */
+    text-decoration-thickness: 2px; /* Set the thickness of the underline */
+    text-decoration-color: var(--link-color); /* Set the underline color to black */
+    transition: text-decoration-color 0.3s, text-decoration-thickness 0.3s; /* Smooth transition for hover effect */
+}
+
+.main-content a:hover,
+.main-content a:focus
+{
+    text-decoration-color: var(--tertiary-color); 
+    text-decoration-thickness: 3px; 
+}
+
+.link-box a:hover,
+.link-box a:focus {
+    text-decoration-thickness: 3px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .main-content,
+    .link-box {
+        margin-right: 0; 
+        max-width: 100%;
+    }
+
+    .link-box {
+        margin-left: 0; 
+        margin-top: 1rem; 
+    }
+}
