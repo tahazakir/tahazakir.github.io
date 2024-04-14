@@ -24,6 +24,8 @@ body {
     background-color: var(--background-color);
 }
 
+hr { background-color: var(--main-color); height: 1px; border: 0; }
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -43,7 +45,7 @@ body {
 }
 
 .main-content h1 {
-
+    
     text-shadow: 4px 4px var(--tertiary-color);
 }
 
@@ -80,11 +82,11 @@ body {
 
 .main-content a,
 .link-box a {
-    color: var(--link-color); /* Set the link color to black */
-    text-decoration: underline; /* Add an underline to links */
-    text-decoration-thickness: 2px; /* Set the thickness of the underline */
-    text-decoration-color: var(--link-color); /* Set the underline color to black */
-    transition: text-decoration-color 0.3s, text-decoration-thickness 0.3s; /* Smooth transition for hover effect */
+    color: var(--link-color); 
+    text-decoration: underline; 
+    text-decoration-thickness: 2px; 
+    text-decoration-color: var(--link-color); 
+    transition: text-decoration-color 0.3s, text-decoration-thickness 0.3s; 
 }
 
 .main-content a:hover,
@@ -99,6 +101,9 @@ body {
     text-decoration-thickness: 3px;
 }
 
+.projects {
+    font-size: 2rem;
+}
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -116,3 +121,4 @@ body {
         margin-top: 1rem; 
     }
 }
+
