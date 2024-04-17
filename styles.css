@@ -114,7 +114,7 @@ hr { background-color: var(--main-color); height: 1px; border: 0; }
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem; 
+    gap: 2rem; 
   }
   
   .project-card {
@@ -126,8 +126,15 @@ hr { background-color: var(--main-color); height: 1px; border: 0; }
     display: flex;
     flex-direction: column;
     overflow: hidden; 
+    box-shadow: 3px 3px var(--main-color);
+    transition: box-shadow 0.3s ease-in-out;
 }
 
+.project-card:hover {
+    box-shadow: 6px 6px var(--main-color);
+    background-color: var(--tertiary-color);
+}
+   
 .project-image {
     width: 100%;
     height: auto; 
@@ -168,7 +175,7 @@ hr { background-color: var(--main-color); height: 1px; border: 0; }
     }
 
     .grid-container {
-        grid-template-columns: repeat(1, 1fr); /* Single column on small screens */
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
