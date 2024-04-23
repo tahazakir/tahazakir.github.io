@@ -240,6 +240,15 @@ hr { background-color: var(--main-color); height: 1px; border: 0; }
     border-style: solid;
 }
 
+.responsive-iframe {
+    max-width: 90%;
+    max-height: 600px;
+    margin: 0 auto;
+    height:140vh; 
+    display:flex;
+    justify-content: center;
+} 
+
 blockquote {
     font-style: italic;
     padding-left: 1rem;
@@ -249,6 +258,11 @@ blockquote {
 
 .persona-intro img {
     max-width: 50%;
+    border: none;
+}
+
+.taskflow img {
+    max-width: 80%;
     border: none;
 }
 
