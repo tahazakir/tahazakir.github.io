@@ -221,6 +221,26 @@ hr { background-color: var(--main-color); height: 1px; border: 0; }
     padding: 1rem;
 }
 
+.case-study figure {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.case-study img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-width: 2px;
+    border-radius: 3px 3px 0 0;
+    border-color: var(--main-color);
+    border-style: solid;
+}
+
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
