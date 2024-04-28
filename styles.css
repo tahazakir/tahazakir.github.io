@@ -266,6 +266,15 @@ blockquote {
     border: none;
 }
 
+.literature-review-box {
+    background-color: var(--tertiary-color);
+    border-width: 2px;
+    border-radius: 3px 3px 0 0;
+    border-color: var(--main-color);
+    border-style: solid;
+    padding: 1rem;
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
