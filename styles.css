@@ -277,6 +277,19 @@ blockquote {
     padding: 1rem;
 }
 
+.hn-bg-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem; 
+    padding-bottom: 1rem;
+}
+
+.nur-design-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; 
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
