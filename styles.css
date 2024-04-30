@@ -103,6 +103,8 @@ hr { background-color: var(--main-color); height: 1px; border: 0; }
     text-decoration-thickness: 3px;
 }
 
+.games,
+.updates,
 .projects {
     max-width: 1440px;
     margin: auto;
