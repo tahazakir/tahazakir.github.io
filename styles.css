@@ -325,6 +325,12 @@ blockquote {
         padding-top: 0;
         padding-bottom: 1rem;
     }
+
+    .hn-bg-grid,
+    .nur-design-grid
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
     
 }
 
