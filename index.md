@@ -14,4 +14,4 @@ Check out my [Google Scholar](https://scholar.google.com/citations?hl=en&user=fa
 
 ## Misc 🍿
 
-In my free time, I make and play tabletop or digital games. I used to be a competitive Scrabble player. The color scheme of this site was inspired by Solarized.
+In my free time, I make and play social/multiplayer tabletop or digital games. I also love reading, with my current favourite story being The Princess Bride by William Goldman. I used to be a competitive Scrabble player. The color scheme of this site was inspired by Solarized.
